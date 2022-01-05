@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^api/customerinfo/([a-zA-z0-9-]+) api/customer.php?activity=$1
+RewriteRule ^api/customerinfo/([a-zA-z0-9-]+)/([a-zA-z0-9-]+) api/customer.php?id=$1&id=$2
