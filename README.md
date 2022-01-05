@@ -1,0 +1,1 @@
+This is PHP and postgress base API end point blue print you can test it in local machine and Heroku after finishing testing locally you can push it to heroku once it pushed heroku it will change the database path according to the enviorment.
